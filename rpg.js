@@ -37,9 +37,9 @@ class grid  {
 
         moveRight() {
             
-            // this.grid[this.playerStartX][this.playerStartY] = '🐾'
-            // this.grid[this.playerStartX+ 1][this.playerStartY] = '🤺'
-            // this.displayGrid()
+            this.grid[this.playerStartX][this.playerStartY] = '🐾'
+            this.grid[this.playerStartX+ 1][this.playerStartY] = '🤺'
+            this.displayGrid()
 
             if(this.playerStartX == this.height -1) {
                 console.log('cannot move right further')
